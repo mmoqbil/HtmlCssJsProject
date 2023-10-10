@@ -71,6 +71,12 @@
                       </ol>
                     </span>
                   </div>
+                  <label for="toyota">Mój ulubiony model:</label>
+                  <select id="toyota" name="toyota">
+	                <option value="yaris">Yaris</option>
+	                <option value="cross">Cross</option>
+	                <option value="corolla">Corolla</option>
+                  </select>
                   <br />
                   <div>
                     <h4><span>Volvo</span></h4>
@@ -84,6 +90,11 @@
                       </ol>
                     </span>
                   </div>
+                  <label for="volvo">Mój ulubiony model:</label>
+                  <select id="volvo" name="volvo">
+	                <option value="xc60">xc60</option>
+	                <option value="xc90">xc90</option>
+	                <option value="xc30">xc30</option>
                   <br />
                   <div>
                     <h4><span>Porsche</span></h4>
@@ -97,6 +108,11 @@
                       </ol>
                     </span>
                   </div>
+                  <label for="porsche">Mój ulubiony model:</label>
+                  <select id="porsche" name="porsche">
+	                <option value="cayman">Cayman</option>
+	                <option value="spider">Spider</option>
+	                <option value="dakar">Dakar</option>
                   <br />
                 </section>
               </a>
@@ -151,9 +167,19 @@
         <label name="name">Imię:</label>
         <input type="text" id="name" name="name" placeholder="Imię" /><br />
         <hr width="21.6%" align="left" />
+        <label name="password">Hasło:</label>
+        <input type="password" id="password" name="password" placeholder="Hasło" /><br />
+        <hr width="21.6%" align="left" />
         <label name="email">Email:</label>
         <input type="email" id="email" name="email" placeholder="Email" /><br />
         <hr width="22.2%" align="left" />
+        <label name="powrot">Czy wrócisz jeszcze na tę stronę?:</label>
+	      <input type="radio" id="powrot-tak" name="powrot" value="tak">
+	      <label name="powrot-tak">Tak</label>
+	      <input type="radio" id="powrot-nie" name="powrot" value="nie">
+	      <label name="powrot-nie">Nie</label><br>
+        <label name="aktywnosc">Zapis aktywności:</label>
+	      <input type="checkbox" id="aktywnosc" name="aktywnosc"><br>
         <button type="submit">Wyślij</button>
         <button type="reset">Reset</button>
       </form>
